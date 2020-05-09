@@ -52,7 +52,7 @@ def all_supplies_in_holidays(holiday_hash)
         word.capitalize
       end
 
-      puts "  " + hol.join(" ") + ": " + supply.join(", ") 
+      puts "  " + hol.join(" ") + ": " + supply.join(", ")
 
 #binding.pry
     end
@@ -68,9 +68,10 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
 end
 
-#def all_holidays_with_bbq(holiday_hash)
-#holiday_hash.each do |season, data|
-  #data.each do |holiday, value|
-    #value.each do |supply|
-    # if supply == "BBQ"
-    # end
+def all_holidays_with_bbq(holiday_hash)
+holiday_hash.each do |season, data|
+  data.each do |holiday, value|
+    value.each do |supply|
+      binding.pry
+     if supply == "BBQ"
+     end
