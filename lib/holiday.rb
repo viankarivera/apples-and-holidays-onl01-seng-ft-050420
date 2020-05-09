@@ -52,7 +52,7 @@ def all_supplies_in_holidays(holiday_hash)
         word.capitalize
       end
 
-      puts "" + hol.join(" ") + ":" + supply.join(" , ")
+      puts " " + hol.join(" ") + ":" + supply.join(" , ")
 
 #binding.pry
     end
