@@ -52,7 +52,7 @@ def all_supplies_in_holidays(holiday_hash)
         word.capitalize
       end
       binding.pry
-      puts hol << ":" + supply_array.join(" , ")
+      puts hol + ":" + supply_array.join(" , ")
 
 #binding.pry
     end
