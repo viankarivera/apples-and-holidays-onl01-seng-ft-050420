@@ -49,6 +49,9 @@ def all_supplies_in_holidays(holiday_hash)
     data.each do |holiday, supply|
     binding.pry
       arrays = holiday.to_s.split("_")
+      arrays.each do |word|
+        supply_array.join (" , ")
+
 #binding.pry
     end
       #binding.pry
