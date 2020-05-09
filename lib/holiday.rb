@@ -50,7 +50,7 @@ def all_supplies_in_holidays(holiday_hash)
     binding.pry
       arrays = holiday.to_s.split("_")
       arrays.each do |word|
-        supply_array.join (" , ")
+        supply_array.join(" , ")
 
 #binding.pry
     end
