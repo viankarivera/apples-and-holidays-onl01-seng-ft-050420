@@ -50,8 +50,7 @@ def all_supplies_in_holidays(holiday_hash)
       arrays = holiday.split("")
     end
       #binding.pry
-    end
-  end 
+    end 
 
   # iterate through holiday_hash and print items such that your readout resembles:
   # Winter:
@@ -60,7 +59,6 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-
 end
 
 def all_holidays_with_bbq(holiday_hash)
