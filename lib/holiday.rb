@@ -53,7 +53,7 @@ def all_supplies_in_holidays(holiday_hash)
       end
       binding.pry
       puts hol << ":"
-        supply_array.join(" , ")
+        << supply_array.join(" , ")
 
 #binding.pry
     end
