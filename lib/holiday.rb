@@ -33,7 +33,7 @@ def add_supply_to_memorial_day(holiday_hash, supply)
   holiday_hash[:spring][:memorial_day] << "Table Cloth"
     if supply == "Table Cloth"
       supply.remove
-    end 
+    end
     holiday_hash[:spring][:memorial_day]
 end
 
