@@ -47,8 +47,9 @@ def all_supplies_in_holidays(holiday_hash)
     #binding.pry
     puts "#{season.capitalize}:"
     data.each do |holiday, supply|
+    binding.pry 
       arrays = holiday.split("")
-binding.pry
+#binding.pry
     end
       #binding.pry
     end
