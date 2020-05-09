@@ -36,9 +36,9 @@ def add_supply_to_memorial_day(holiday_hash, supply)
       holiday.each do |attribute, data|
         if attribute == "Table Cloth"
           data.remove_if {|Table CLoth| Table_cloth = "Table Cloth"}
-        end 
+        end
       end
-    end 
+    end
 end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
