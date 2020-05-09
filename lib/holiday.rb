@@ -61,9 +61,9 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
 end
 
-def all_holidays_with_bbq(holiday_hash)
-holiday_hash.each do |season, data|
-  data.each do |holiday, value|
-    value.each do |supply|
-     if supply == "BBQ"
-     end 
+#def all_holidays_with_bbq(holiday_hash)
+#holiday_hash.each do |season, data|
+  #data.each do |holiday, value|
+    #value.each do |supply|
+    # if supply == "BBQ"
+    # end 
